@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+	<head>
+		<meta charset = "utf-8">
+		<title> 과제1 - 설문조사</title>
+		<link href="./stylesheet/hw1.css" rel="stylesheet" type="text/css">
+	</head>
+
+	<body>
+		<form action="index3.html" method="post">
+			<table style = "border:1">
+				<tr>
+					<th>이름</th>
+					<td colspan="3">
+						<input type="text"/>
+					</td>
+				</tr>
+				<tr>
+					<th>주민번호</th>
+					<td colspan="3">
+						<input type="number"/>
+						<input type="button" value="실명확인"/>
+					</td>
+				</tr>
+				<tr>
+					<th>학년</th>
+					<td>
+						<input type="number"/>
+					</td>
+					<th>학번</th>
+					<td>
+						<input type="number"/>
+					</td>
+				</tr>
+				<tr>
+					<th>이메일</th>
+					<td colspan="3">
+						<input type="text"/>
+					</td>
+				</tr>
+				<tr>
+					<th>본인이 선호하는 과목</th>
+					<td colspan="3">
+						<input type="checkbox" name="apply"/> C언어
+						<input type="checkbox" name="apply"/> 웹프로그래밍
+						<input type="checkbox" name="apply"/> 팀프로젝트
+						<input type="checkbox" name="apply"/> 기타
+					</td>
+				</tr>
+
+				<tr>
+					<th>본인이 선호하는 교수님</th>
+					<td colspan="3">
+						<select>
+							<option value="권동섭">권동섭</option>
+							<option value="류연승">류연승</option>
+							<option value="조세형">조세형</option>
+							<option value="이충기">이충기</option>
+							<option value="최성운">최성운</option>
+							<option value="김상귀">김상귀</option>
+							<option value="장희정">장희정</option>
+							<option value="etc">기타</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="4">
+						<input type="checkbox" name="apply"/> 설문조사를 진실되게 응답하셨습니까.
+					</td>
+				</tr>
+			</table>
+		<input type="submit" value= " 이전페이지"/>
+
+	<ul>
+		<li> 이전페이지보기	
+			<a href = "./index2.html">
+				신공대학생회
+			</a>
+		</li>
+	</ul>
+		</form>
+	</body>
+</html>
